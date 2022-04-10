@@ -6,4 +6,5 @@ module.exports = {
     port: process.env.PORT,
     hostname: process.env.HOSTNAME,
     environment: process.env.NODE_ENV,
+    nodeversion: process.env.NODE_VERSION
 }

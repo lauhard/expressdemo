@@ -1,8 +1,8 @@
 const config = require('./config/index.js');
 const { generateFileList } = require('./utils/index.js');
 
-const express = require('express');
-const bodyParser = require('body-parser');
+const express = require('../node_modules/express');
+const bodyParser = require('../node_modules/body-parser');
 const path = require('path');
 
 const app = express();

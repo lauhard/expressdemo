@@ -1,4 +1,4 @@
-var hljs = require('highlight.js');
+var hljs = require('../../node_modules/highlight.js');
 
 let markdownConfig = {
     html: false,        // Enable HTML tags in source

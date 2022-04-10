@@ -1,4 +1,4 @@
-const matter = require('gray-matter');
+const matter = require('../../node_modules/gray-matter');
 const path = require('path');
 const fspromises = require('fs/promises');
 

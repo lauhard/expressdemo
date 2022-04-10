@@ -1,12 +1,12 @@
 const config = require('./config/index.js');
-const { generateFileList } = require('./utils/index.js');
+//const { generateFileList } = require('./utils/index.js');
 
 const express = require('../node_modules/express');
 const bodyParser = require('../node_modules/body-parser');
 const path = require('path');
 
 const app = express();
-generateFileList();
+//generateFileList();
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '../static'));

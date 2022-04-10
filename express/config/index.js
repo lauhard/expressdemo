@@ -1,4 +1,4 @@
-const dotnev = require('../../node_modules/dotenv')
+const dotnev = require('dotenv')
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 dotnev.config();
 

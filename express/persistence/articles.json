@@ -1,1 +1,20 @@
-[{"filename":"sveltekit.md","slug":"sveltekit","data":{"title":"sveltekit","description":"a post about sveltekit","image":"A nice image representing the blog post, mainly meant for the <meta> tags"}},{"filename":"test.md","slug":"testTT-the-ueltimate-course","data":{"title":"testTT the ültimate course","description":"this is a test","image":"A nice image representing the blog post, mainly meant for the <meta> tags"}}]
+[
+    {
+        "filename": "sveltekit.md",
+        "slug": "sveltekit",
+        "data": {
+            "title": "sveltekit",
+            "description": "a post about sveltekit",
+            "image": "A nice image representing the blog post, mainly meant for the <meta> tags"
+        }
+    },
+    {
+        "filename": "test.md",
+        "slug": "testTT-the-ueltimate-course",
+        "data": {
+            "title": "testTT the ültimate course",
+            "description": "this is a test",
+            "image": "A nice image representing the blog post, mainly meant for the <meta> tags"
+        }
+    }
+]

@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>EJS Is Fun</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/monokai.min.css"
+  integrity="sha512-RLF8eOxhuwsRINc7r56dpl9a3VStqrXD+udWahutJrYdyh++2Ghnf+s4jFsOyryKZt/GNjPwbXVPH3MJpKrn2g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/ef581353f5.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <div id="blog">
+    <h1>
+      Blog
+    </h1>
+    <% for (post of posts) { %>
+        <a href="/blog/<%= post.slug %>">
+          <div class="post">
+            <%= post.data.title.toUpperCase() %>  
+          </div>
+        </a>
+        <p><%= post.data.description %></p>
+      <% } %>
+  </div>
+
+</body>
+</html>
+<script defer src="../js/main.js"></script>

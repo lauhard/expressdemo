@@ -1,0 +1,49 @@
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    min-width: 400px;
+    background-color: rgb(108, 181, 253);
+    margin: 0 auto;
+  }
+
+  .hljs {
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+  }
+
+  code {
+    margin-top: 40px;
+    display: block;
+    padding-left: 10px;
+    position: relative;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  pre .fa-solid {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    transition: transform .5s ease-in-out;
+  }
+  pre .fa-solid:hover{
+    transform: scale(1.3);
+  }
+  pre .snippet-lang {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 0 10px;
+    height: auto;
+    background: wheat;
+    color: crimson;
+    border-radius: 10%;
+  }

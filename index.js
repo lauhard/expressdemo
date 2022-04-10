@@ -1,7 +1,11 @@
-const App = require('./express/express.js');
+const {app} = require('./express/server.js');
 
-const app = App.listen();
+const articlesRouter = require('./express/routes/articles.md.router');
 
-app.get('/', (req, res)=>{
-    res.send("hello");
+app.use('/blog', articlesRouter);
+
+app.get('/', (req, res) => {
+    res.redirect('/blog');
 })
+
+

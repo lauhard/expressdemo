@@ -1,4 +1,4 @@
-/* const matter = require('../../node_modules/gray-matter');
+const matter = require('gray-matter');
 const path = require('path');
 const fspromises = require('fs/promises');
 
@@ -43,7 +43,7 @@ const slugify = (title) => {
         if ("òöô".indexOf(ch) >= 0) { // There are a lot more than this
             return 'oe';
           }
-        /* ...long list of others...*
+        /* ...long list of others...*/
         // Default
         return '-';
     });
@@ -52,4 +52,4 @@ const slugify = (title) => {
 
 module.exports = {
     generateFileList
-} */
+}

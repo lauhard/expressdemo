@@ -12,7 +12,7 @@
         "filename": "test.md",
         "slug": "test",
         "data": {
-            "title": "test",
+            "title": "test-post",
             "description": "this is a test",
             "image": "A nice image representing the blog post, mainly meant for the <meta> tags"
         }

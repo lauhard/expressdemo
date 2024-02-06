@@ -1,5 +1,5 @@
 ---
-title: "testTT the ültimate course"
+title: "test"
 description: "this is a test"
 image: A nice image representing the blog post, mainly meant for the <meta> tags
 ---
